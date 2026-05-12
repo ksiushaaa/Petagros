@@ -598,22 +598,22 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    opacity: 0.55;
-    filter: saturate(0.85) brightness(0.65);
+    opacity: 0.45;
+    filter: saturate(0.6) brightness(0.55);
     display: block;
   }
   .hero-visual::before {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to right, var(--navy) 0%, transparent 35%);
+    background: linear-gradient(to right, var(--navy) 0%, rgba(11,31,58,0.7) 50%, transparent 100%);
     z-index: 1;
   }
   .hero-visual::after {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, var(--navy) 0%, transparent 30%);
+    background: linear-gradient(to top, var(--navy) 0%, transparent 40%);
     z-index: 1;
   }
 
@@ -732,7 +732,7 @@
 
   <!-- Hero photo: real PET preforms -->
   <div class="hero-visual">
-    <img src="1778602099440_image.png" 
+    <img src="hero-bg.png" 
          alt="PET Preforms manufacturing">
   </div>
 
